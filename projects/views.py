@@ -23,7 +23,7 @@ class ProjectDetailView(LoginRequiredMixin, DetailView):
 
 class ProjectCreateView(LoginRequiredMixin, CreateView):
     model = Project
-    template_name = "Projects/create.html"
+    template_name = "projects/create.html"
     fields = ["name", "description", "members"]
 
     def get_success_url(self):
