@@ -1,9 +1,10 @@
-from django.shortcuts import render
+# from django.shortcuts import render
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views.generic.list import ListView
 from django.views.generic.edit import CreateView, UpdateView
 from tasks.models import Task
 from django.urls import reverse_lazy
+
 
 # Create your views here.
 class TaskCreateView(LoginRequiredMixin, CreateView):
