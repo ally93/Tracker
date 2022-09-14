@@ -128,11 +128,7 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-MARKDOWNIFY = {
-    "default": {
-        "BLEACH": False
-    }
-}
+MARKDOWNIFY = {"default": {"BLEACH": False}}
 
 LOGIN_REDIRECT_URL = "home"
 LOGOUT_REDIRECT_URL = "login"
