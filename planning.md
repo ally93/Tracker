@@ -12,3 +12,5 @@ Feature 5
 -list view for projects set it up
 
 Feature 6
+Notion link to the notes for this project
+https://blue-jujube-a59.notion.site/Project-alpha-apr-90df60b6208e4ccfaff0fd4924f10161
